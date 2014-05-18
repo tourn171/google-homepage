@@ -1,0 +1,12 @@
+
+
+
+.navbar {
+	float: right;
+}
+.navbar li {
+	display: inline;
+}
+.navbar a {
+	color: #a1a1a1;
+}
