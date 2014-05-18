@@ -3,10 +3,62 @@
 
 .navbar {
 	float: right;
+	font-size: .75em;
 }
 .navbar li {
 	display: inline;
+	margin-right: 5px;
 }
 .navbar a {
-	color: #a1a1a1;
+	color: #404040;
+	text-decoration:none;
+	font-family: arial, san-serif;
+	
+}
+
+.navbar li:last-child{
+	border: 1px solid blue;
+	border-radius: 1px;
+	background: #4d90fe;
+	color: white;
+	padding: 5px 5px 5px 5px;
+
+}
+.navbar li:last-child:hover {
+background: #357ae8;
+border-color: #2f5bb7;
+}
+.wrapper {
+	position: absolute;
+	margin: auto;
+	top: 122px;
+	left: 200px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+	border-color: #e2e2e2;
+	width: 100%;
+	height: 1em;
+}
+.footer li {
+	display: inline;
+}
+#left {
+	float:left;
+
+}
+#right {
+	float:right;
+}
+#left a {
+		color: #404040;
+		text-decoration: none;
+}
+
+ #right a {
+		color: #404040;
+		text-decoration:none;
 }
