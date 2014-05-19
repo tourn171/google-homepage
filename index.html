@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="index.css"
+	<link type="text/css" rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
 </head>
 <body>
 	<div class='navwrap'>
@@ -17,16 +18,21 @@
 	</div>
 
 	<div class="wrapper">
-		<div id=logo><img src ="https://www.google.com/images/srpr/logo11w.png" alt="Google" height="95px" width="269px"</div>
+		<div class='center'>
+		<div id=logo><div class='centering'><img src ="https://www.google.com/images/srpr/logo11w.png" alt="Google" height="95px" width="269px"/></div>
+		</div>
+		<div class='boxarea'>
 			<div class="searchbox">
 				<form>
 					<input type="text" id="search"></input>
 				</form>
 			</div>
 			<div class="buttons">
-				<div id="search">Google Search</div>
-				<div id="lucky">I'm Feeling Lucky</div>
+				<button id="searchbutton">Google Search</button>
+				<button id="lucky">I'm Feeling Lucky</button>
+				</div>
 			</div>
+		</div>
 	</div>
 	
 	
@@ -45,5 +51,6 @@
 			</ul>
 		</span>
 	</div>
+	
 </body>
 </html>
